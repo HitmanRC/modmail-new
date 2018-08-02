@@ -1,5 +1,5 @@
 {
-  "token": JSON.stringify(process.env.token),
+  "token": process.env.token,
   "mailGuildId": "442922227789201409",
   "mainGuildId": "442922227789201409",
   "logChannelId": "474596272171384857",
