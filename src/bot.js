@@ -19,7 +19,7 @@ server.listen(port, (err) => {
   console.log(`server is listening on ${port}`);
 });
 
-const bot = new Eris.CommandClient(config.token, {}, {
+const bot = new Eris.CommandClient(process.env.token, {}, {
   prefix: config.prefix,
   ignoreSelf: true,
   ignoreBots: true,
