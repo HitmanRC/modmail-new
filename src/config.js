@@ -35,7 +35,6 @@ try {
 }
 
 const defaultConfig = {
-  "token": null,
   "mailGuildId": null,
   "mainGuildId": null,
   "logChannelId": null,
@@ -76,7 +75,7 @@ const defaultConfig = {
   "logDir": path.join(__dirname, '..', 'logs'),
 };
 
-const required = ['token', 'mailGuildId', 'mainGuildId', 'logChannelId'];
+const required = ['mailGuildId', 'mainGuildId', 'logChannelId'];
 
 const finalConfig = Object.assign({}, defaultConfig);
 
